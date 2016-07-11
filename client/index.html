@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Pandoras Box</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+
+	<script src="angular.js"></script>
+	<script src="angular-ui-router.min.js"></script>
+	
+	<script src="app.js"></script>
+	<script src="questions/questions.js"></script>
+	<script src="responses/responses.js"></script>
+
+</head>
+<body ng-app="pandoraApp">
+
+
+	<h1>Pandoras Box</h1>
+
+	<div ui-view></div>
+	<div ui-sref="questionState">QuestionState</div>
+
+	<nav></nav>
+
+</body>
+</html>
